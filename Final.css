@@ -1,0 +1,74 @@
+/* Final.css */
+
+body 
+{
+  display: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: lightgrey;
+  font-family: Arial, sans-serif;
+}
+
+table 
+{
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+td 
+{
+  width: 100px;
+  height: 100px;
+  border: 4px solid black;
+  text-align: center;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+td.playerX 
+{
+  color: blue;
+}
+
+td.playerO 
+{
+  color: red;
+}
+
+td:hover 
+{
+  background-color: lightblue;
+}
+
+td.winner 
+{
+  background-color: lightgreen;
+}
+
+#turnLabel 
+{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button 
+{
+  padding: 10px 20px;
+  font-size: 2.5em;
+  cursor: pointer;
+  background-color: grey;
+  color: black;
+  border: 2px solid black; 
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover 
+{
+  background-color: lightgreen;
+}
